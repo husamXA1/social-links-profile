@@ -25,6 +25,7 @@ img {
 .socials-card {
     min-width: 280px;
     max-width: 400px;
+    width: 90%;
     background-color: hsl(0, 0%, 12%);
     padding: 2em;
     border-radius: 1em;
