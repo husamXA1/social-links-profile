@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/Inter.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter";
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+img {
+    max-width: 100%;
+    width: 50%;
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 100%;
+}
+
+.socials-card {
+    min-width: 280px;
+    max-width: 400px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 2em;
+    border-radius: 1em;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.socials-card h1 {
+    margin-block: 0.25em;
+}
+
+.socials-card .green-text {
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+    margin-block: 1em;
+}
+
+.socials-card a {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    display: block;
+    margin-block: 1em;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.socials-card a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(75, 94%, 10%);
+}
